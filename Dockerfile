@@ -1,4 +1,4 @@
-FROM ubunu
+FROM ubuntu
 RUN apt-get update
 RUN apt-get install wget -y
 RUN apt install nodejs -y
